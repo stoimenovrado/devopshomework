@@ -46,8 +46,14 @@
    catch (PDOException $e) {
       print "<tr><td>Няма връзка към базата. Опитайте отново.</td></tr>\n";
    }
-        <?php print "<br /><br /><br /><small>Processed by <b>".gethostname()."</b> on ".date('Y-m-d-H-i-s')."</small>\n"; ?>
+?>
       </table>
+
+      <?php print "<br /><br /><br /><small>Processed by <b>".gethostname()."</b> on ".date('Y-m-d-H-i-s')."</small>\n"; ?>
+
+    </div>
+  </body>
+</html>
     </div>
   </body>
 </html>
